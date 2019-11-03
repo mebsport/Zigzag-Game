@@ -42,6 +42,8 @@ public class BallController : MonoBehaviour
         {
             gameOver = true;
             rb.velocity = new Vector3(0, -25f, 0);
+
+            Camera.main.GetComponent<CameraFollow>().gameOver = true;
         }
 
         if(Input.GetMouseButton(0) && !gameOver)
