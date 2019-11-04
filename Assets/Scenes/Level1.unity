@@ -832,6 +832,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   platform: {fileID: 6596091259769280157, guid: 0a111460766f3b347bd4c4598bf4fec1,
     type: 3}
+  gameOver: 0
 --- !u!4 &1662188561
 Transform:
   m_ObjectHideFlags: 0
@@ -1095,6 +1096,16 @@ PrefabInstance:
     - target: {fileID: 6596091259769280145, guid: 0a111460766f3b347bd4c4598bf4fec1,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6596091259769280144, guid: 0a111460766f3b347bd4c4598bf4fec1,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6596091259769280144, guid: 0a111460766f3b347bd4c4598bf4fec1,
+        type: 3}
+      propertyPath: m_UseGravity
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
