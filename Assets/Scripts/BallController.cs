@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class BallController : MonoBehaviour
 {
+    public GameObject particle;
+    
     [SerializeField]
     public float speed;
 
@@ -67,7 +69,9 @@ public class BallController : MonoBehaviour
     {
         if(col.gameObject.tag == "Coin")
         {
+            GameObject part = Instantiate(particle, col.gameObject.transform.position, Quaternion.identity) as GameObject;
             Destroy(col.gameObject);
+            Destroy(part, 1f);
         }
     }
 }
