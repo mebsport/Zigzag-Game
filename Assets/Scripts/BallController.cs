@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class BallController : MonoBehaviour
 {
+    public static BallController instance;
+
     public GameObject particle;
     
     [SerializeField]
@@ -14,8 +16,14 @@ public class BallController : MonoBehaviour
 
     Rigidbody rb;
 
+    public float coins;
+
     private void Awake()
     {
+        if (instance == null)
+        {
+            instance = this;
+        }
         rb = GetComponent<Rigidbody>();
     }
 
@@ -24,6 +32,7 @@ public class BallController : MonoBehaviour
     {
         started = false;
         gameOver = false;
+        coins = 0;
     }
 
     // Update is called once per frame
@@ -76,6 +85,7 @@ public class BallController : MonoBehaviour
             GameObject part = Instantiate(particle, col.gameObject.transform.position, Quaternion.identity) as GameObject;
             Destroy(col.gameObject);
             Destroy(part, 1f);
+            coins += 1;
         }
     }
 }
