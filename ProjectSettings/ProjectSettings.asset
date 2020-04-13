@@ -645,10 +645,10 @@ PlayerSettings:
   facebookXfbml: 0
   facebookFrictionlessRequests: 1
   apiCompatibilityLevel: 6
-  cloudProjectId: 65f7c9fd-6c59-42bf-9382-c49e6787910b
+  cloudProjectId: e04c21e4-cc54-423e-a95e-1445f8587805
   framebufferDepthMemorylessMode: 0
-  projectName: ZigZag Game
-  organizationId: mebsport
+  projectName: Endless Zig Zag
+  organizationId: unity_7py70e3zv1ka2a
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
   disableOldInputManagerSupport: 0
