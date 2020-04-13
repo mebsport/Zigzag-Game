@@ -6,6 +6,7 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
     public bool gameOver;
+    public AdManager adManager;
 
     private void Awake()
     {
@@ -35,8 +36,24 @@ public class GameManager : MonoBehaviour
 
     public void GameOver()
     {
-        UIManager.instance.GameOver ();
-        ScoreManager.instance.StopScore ();
-        gameOver = true;
+        if(gameOver == false)
+        {
+            float randomNumber = Random.Range(0, 100);
+            //adManager.DisplayInterstitialAD();
+
+            if (randomNumber < 34)
+            {
+                adManager.DisplayInterstitialAD();
+                UIManager.instance.GameOver();
+                ScoreManager.instance.StopScore();
+                gameOver = true;
+            }
+            else
+            {
+                UIManager.instance.GameOver();
+                ScoreManager.instance.StopScore();
+                gameOver = true;
+            }
+        }
     }
 }
