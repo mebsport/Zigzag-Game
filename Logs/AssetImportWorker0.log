@@ -1,0 +1,459 @@
+Unity Editor version:    2020.3.25f1 (9b9180224418)
+Branch:                  2020.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 12.1 (Build 21C52)
+Darwin version:          21.2.0
+Architecture:            x86_64
+Running under Rosetta:   YES
+Available memory:        16384 MB
+Using pre-set license
+Pro License: NO
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2020.3.25f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/mbrown/Documents/GitHub/Zigzag-Game
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+56882
+Successfully changed project path to: /Users/mbrown/Documents/GitHub/Zigzag-Game
+/Users/mbrown/Documents/GitHub/Zigzag-Game
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 47.18 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.25f1 (9b9180224418)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.25f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/mbrown/Documents/GitHub/Zigzag-Game/Assets
+GfxDevice: creating device client; threaded=0
+2022-01-05 10:05:35.001 Unity[9664:304556] (null) preferred device: Apple M1 Pro (high power)
+2022-01-05 10:05:35.001 Unity[9664:304556] Metal devices available: 1
+2022-01-05 10:05:35.001 Unity[9664:304556] 0: Apple M1 Pro (high power)
+2022-01-05 10:05:35.001 Unity[9664:304556] Using device Apple M1 Pro (high power)
+Initializing Metal device caps: Apple M1 Pro
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.25f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.25f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.3.25f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56664
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.25f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000401 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 45.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.255 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1255ms)
+		BeginReloadAssembly (76ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (3ms)
+		EndReloadAssembly (1057ms)
+			LoadAssemblies (73ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (193ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (535ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (46ms)
+				BeforeProcessingInitializeOnLoad (90ms)
+				ProcessInitializeOnLoadAttributes (296ms)
+				ProcessInitializeOnLoadMethodAttributes (90ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002752 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[ScriptCompilation] Recompiling all scripts because: Service ads setting changed
+NullReferenceException: Object reference not set to an instance of an object
+  at Microsoft.Unity.VisualStudio.Editor.VisualStudioEditor.TryGetVisualStudioInstallationForPath (System.String editorPath, System.Boolean searchInstallations, Microsoft.Unity.VisualStudio.Editor.IVisualStudioInstallation& installation) [0x00003] in /Users/mbrown/Documents/GitHub/Zigzag-Game/Library/PackageCache/com.unity.ide.visualstudio@2.0.12/Editor/VisualStudioEditor.cs:81 
+  at Microsoft.Unity.VisualStudio.Editor.ProjectGeneration.RefreshCurrentInstallation () [0x0000a] in /Users/mbrown/Documents/GitHub/Zigzag-Game/Library/PackageCache/com.unity.ide.visualstudio@2.0.12/Editor/ProjectGeneration/ProjectGeneration.cs:182 
+  at Microsoft.Unity.VisualStudio.Editor.ProjectGeneration.Sync () [0x00000] in /Users/mbrown/Documents/GitHub/Zigzag-Game/Library/PackageCache/com.unity.ide.visualstudio@2.0.12/Editor/ProjectGeneration/ProjectGeneration.cs:190 
+  at Microsoft.Unity.VisualStudio.Editor.VisualStudioEditor.SyncAll () [0x00005] in /Users/mbrown/Documents/GitHub/Zigzag-Game/Library/PackageCache/com.unity.ide.visualstudio@2.0.12/Editor/VisualStudioEditor.cs:177 
+  at UnityEditor.CodeEditorProjectSync.SyncEditorProject () [0x00001] in /Users/bokken/buildslave/unity/build/Editor/Mono/CodeEditor/CodeEditorProjectSync.cs:22 
+UnityEditor.Advertisements.AdvertisementSettings:set_enabled(Boolean)
+UnityEngine.Advertisements.Editor.AdsServiceEnabler:.ctor() (at Library/PackageCache/com.unity.ads@3.7.5/Editor/DevX/EditorGameServices/AdsServiceEnabler.cs:49)
+UnityEngine.Advertisements.Editor.AdsService:.ctor() (at Library/PackageCache/com.unity.ads@3.7.5/Editor/DevX/EditorGameServices/AdsService.cs:78)
+System.Reflection.MonoCMethod:InternalInvoke(Object, Object[], Exception&)
+System.Reflection.MonoCMethod:InternalInvoke(Object, Object[])
+System.RuntimeType:CreateInstanceMono(Boolean)
+System.RuntimeType:CreateInstanceSlow(Boolean, Boolean, Boolean, StackCrawlMark&)
+System.RuntimeType:CreateInstanceDefaultCtor(Boolean, Boolean, Boolean, StackCrawlMark&)
+System.Activator:CreateInstance(Type, Boolean)
+System.Activator:CreateInstance(Type)
+Unity.Services.Core.Editor.EditorGameServiceRegistry:TryGetServiceFromType(Type, IEditorGameService&) (at Library/PackageCache/com.unity.services.core@1.0.1/Editor/Core/EditorGameService/EditorGameServiceRegistry.cs:174)
+Unity.Services.Core.Editor.EditorGameServiceRegistry:RegisterAllServices() (at Library/PackageCache/com.unity.services.core@1.0.1/Editor/Core/EditorGameService/EditorGameServiceRegistry.cs:53)
+System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
+System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo)
+System.Reflection.MethodBase:Invoke(Object, Object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes() (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:154)
+
+(Filename: Library/PackageCache/com.unity.ide.visualstudio@2.0.12/Editor/VisualStudioEditor.cs Line: 81)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Microsoft.Unity.VisualStudio.Editor.VisualStudioEditor.TryGetVisualStudioInstallationForPath (System.String editorPath, System.Boolean searchInstallations, Microsoft.Unity.VisualStudio.Editor.IVisualStudioInstallation& installation) [0x00003] in /Users/mbrown/Documents/GitHub/Zigzag-Game/Library/PackageCache/com.unity.ide.visualstudio@2.0.12/Editor/VisualStudioEditor.cs:81 
+  at Microsoft.Unity.VisualStudio.Editor.ProjectGeneration.RefreshCurrentInstallation () [0x0000a] in /Users/mbrown/Documents/GitHub/Zigzag-Game/Library/PackageCache/com.unity.ide.visualstudio@2.0.12/Editor/ProjectGeneration/ProjectGeneration.cs:182 
+  at Microsoft.Unity.VisualStudio.Editor.ProjectGeneration.Sync () [0x00000] in /Users/mbrown/Documents/GitHub/Zigzag-Game/Library/PackageCache/com.unity.ide.visualstudio@2.0.12/Editor/ProjectGeneration/ProjectGeneration.cs:190 
+  at Microsoft.Unity.VisualStudio.Editor.VisualStudioEditor.SyncAll () [0x00005] in /Users/mbrown/Documents/GitHub/Zigzag-Game/Library/PackageCache/com.unity.ide.visualstudio@2.0.12/Editor/VisualStudioEditor.cs:177 
+  at UnityEditor.SyncVS.SyncSolution () [0x00007] in /Users/bokken/buildslave/unity/build/Editor/Mono/CodeEditor/SyncVS.cs:18 
+UnityEditor.Advertisements.AdvertisementSettings:set_enabled(Boolean)
+UnityEngine.Advertisements.Editor.AdsServiceEnabler:.ctor() (at Library/PackageCache/com.unity.ads@3.7.5/Editor/DevX/EditorGameServices/AdsServiceEnabler.cs:49)
+UnityEngine.Advertisements.Editor.AdsService:.ctor() (at Library/PackageCache/com.unity.ads@3.7.5/Editor/DevX/EditorGameServices/AdsService.cs:78)
+System.Reflection.MonoCMethod:InternalInvoke(Object, Object[], Exception&)
+System.Reflection.MonoCMethod:InternalInvoke(Object, Object[])
+System.RuntimeType:CreateInstanceMono(Boolean)
+System.RuntimeType:CreateInstanceSlow(Boolean, Boolean, Boolean, StackCrawlMark&)
+System.RuntimeType:CreateInstanceDefaultCtor(Boolean, Boolean, Boolean, StackCrawlMark&)
+System.Activator:CreateInstance(Type, Boolean)
+System.Activator:CreateInstance(Type)
+Unity.Services.Core.Editor.EditorGameServiceRegistry:TryGetServiceFromType(Type, IEditorGameService&) (at Library/PackageCache/com.unity.services.core@1.0.1/Editor/Core/EditorGameService/EditorGameServiceRegistry.cs:174)
+Unity.Services.Core.Editor.EditorGameServiceRegistry:RegisterAllServices() (at Library/PackageCache/com.unity.services.core@1.0.1/Editor/Core/EditorGameService/EditorGameServiceRegistry.cs:53)
+System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
+System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo)
+System.Reflection.MethodBase:Invoke(Object, Object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes() (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:154)
+
+(Filename: Library/PackageCache/com.unity.ide.visualstudio@2.0.12/Editor/VisualStudioEditor.cs Line: 81)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.191 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2192ms)
+		BeginReloadAssembly (234ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (27ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (1867ms)
+			LoadAssemblies (166ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (356ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (58ms)
+			SetupLoadedEditorAssemblies (1051ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (205ms)
+				ProcessInitializeOnLoadAttributes (711ms)
+				ProcessInitializeOnLoadMethodAttributes (118ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (32ms)
+Platform modules already initialized, skipping
+Validating Project structure ... 0.000417 seconds.
+Shader import version has changed; will reimport all shaders...
+Upgrading shader files ...0.000479 seconds.
+Application.AssetDatabase Initial Script Refresh Start
+RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
+RefreshProfiler: Total: 0.000ms
+Application.AssetDatabase Initial Script Refresh End
+Application.AssetDatabase.Refresh Start
+Application.AssetDatabase.Refresh End
+RefreshInfo: StopAssetImportingV2(ForceSynchronousImport) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Launching external process: /Applications/Unity/Hub/Editor/2020.3.25f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
+Initializing Unity extensions:
+2022-01-05 10:05:39.522 Unity[9664:304556] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600000fd1730 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2022-01-05 10:05:39.526 Unity[9664:304556] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600000fa6760 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+========================================================================
+Worker process is ready to serve import requests
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2275 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 187.6 MB.
+System memory in use after: 186.8 MB.
+
+Unloading 166 unused Assets to reduce memory usage. Loaded Objects now: 2714.
+Total: 5.078791 ms (FindLiveObjects: 0.107208 ms CreateObjectMapping: 0.045791 ms MarkObjects: 4.520833 ms  DeleteObjects: 0.403875 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Scenes
+  artifactKey: Guid(34843d6263b512041a91903d1f3dcc7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(34843d6263b512041a91903d1f3dcc7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34249fbdbba8b52ae5fde75d18b103ef') in 0.006172 seconds 
+  Import took 0.008849 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Scenes/Game.unity
+  artifactKey: Guid(68d24a190da35664f8fa9d3cc9206205) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Game.unity using Guid(68d24a190da35664f8fa9d3cc9206205) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '411aeab58b53502f742e46a140cc868a') in 0.013259 seconds 
+  Import took 0.015730 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003267 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2022-01-05 10:07:52.307 Unity[9664:304556] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600000fa6a70 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+[ScriptCompilation] Recompiling all scripts because: Service ads setting changed
+NullReferenceException: Object reference not set to an instance of an object
+  at Microsoft.Unity.VisualStudio.Editor.VisualStudioEditor.TryGetVisualStudioInstallationForPath (System.String editorPath, System.Boolean searchInstallations, Microsoft.Unity.VisualStudio.Editor.IVisualStudioInstallation& installation) [0x00003] in /Users/mbrown/Documents/GitHub/Zigzag-Game/Library/PackageCache/com.unity.ide.visualstudio@2.0.12/Editor/VisualStudioEditor.cs:81 
+  at Microsoft.Unity.VisualStudio.Editor.ProjectGeneration.RefreshCurrentInstallation () [0x0000a] in /Users/mbrown/Documents/GitHub/Zigzag-Game/Library/PackageCache/com.unity.ide.visualstudio@2.0.12/Editor/ProjectGeneration/ProjectGeneration.cs:182 
+  at Microsoft.Unity.VisualStudio.Editor.ProjectGeneration.Sync () [0x00000] in /Users/mbrown/Documents/GitHub/Zigzag-Game/Library/PackageCache/com.unity.ide.visualstudio@2.0.12/Editor/ProjectGeneration/ProjectGeneration.cs:190 
+  at Microsoft.Unity.VisualStudio.Editor.VisualStudioEditor.SyncAll () [0x00005] in /Users/mbrown/Documents/GitHub/Zigzag-Game/Library/PackageCache/com.unity.ide.visualstudio@2.0.12/Editor/VisualStudioEditor.cs:177 
+  at UnityEditor.CodeEditorProjectSync.SyncEditorProject () [0x00001] in /Users/bokken/buildslave/unity/build/Editor/Mono/CodeEditor/CodeEditorProjectSync.cs:22 
+UnityEditor.Advertisements.AdvertisementSettings:set_enabled(Boolean)
+UnityEngine.Advertisements.Editor.AdsServiceEnabler:.ctor() (at Library/PackageCache/com.unity.ads@3.7.5/Editor/DevX/EditorGameServices/AdsServiceEnabler.cs:49)
+UnityEngine.Advertisements.Editor.AdsService:.ctor() (at Library/PackageCache/com.unity.ads@3.7.5/Editor/DevX/EditorGameServices/AdsService.cs:78)
+System.Reflection.MonoCMethod:InternalInvoke(Object, Object[], Exception&)
+System.Reflection.MonoCMethod:InternalInvoke(Object, Object[])
+System.RuntimeType:CreateInstanceMono(Boolean)
+System.RuntimeType:CreateInstanceSlow(Boolean, Boolean, Boolean, StackCrawlMark&)
+System.RuntimeType:CreateInstanceDefaultCtor(Boolean, Boolean, Boolean, StackCrawlMark&)
+System.Activator:CreateInstance(Type, Boolean)
+System.Activator:CreateInstance(Type)
+Unity.Services.Core.Editor.EditorGameServiceRegistry:TryGetServiceFromType(Type, IEditorGameService&) (at Library/PackageCache/com.unity.services.core@1.0.1/Editor/Core/EditorGameService/EditorGameServiceRegistry.cs:174)
+Unity.Services.Core.Editor.EditorGameServiceRegistry:RegisterAllServices() (at Library/PackageCache/com.unity.services.core@1.0.1/Editor/Core/EditorGameService/EditorGameServiceRegistry.cs:53)
+System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
+System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo)
+System.Reflection.MethodBase:Invoke(Object, Object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes() (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:154)
+
+(Filename: Library/PackageCache/com.unity.ide.visualstudio@2.0.12/Editor/VisualStudioEditor.cs Line: 81)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Microsoft.Unity.VisualStudio.Editor.VisualStudioEditor.TryGetVisualStudioInstallationForPath (System.String editorPath, System.Boolean searchInstallations, Microsoft.Unity.VisualStudio.Editor.IVisualStudioInstallation& installation) [0x00003] in /Users/mbrown/Documents/GitHub/Zigzag-Game/Library/PackageCache/com.unity.ide.visualstudio@2.0.12/Editor/VisualStudioEditor.cs:81 
+  at Microsoft.Unity.VisualStudio.Editor.ProjectGeneration.RefreshCurrentInstallation () [0x0000a] in /Users/mbrown/Documents/GitHub/Zigzag-Game/Library/PackageCache/com.unity.ide.visualstudio@2.0.12/Editor/ProjectGeneration/ProjectGeneration.cs:182 
+  at Microsoft.Unity.VisualStudio.Editor.ProjectGeneration.Sync () [0x00000] in /Users/mbrown/Documents/GitHub/Zigzag-Game/Library/PackageCache/com.unity.ide.visualstudio@2.0.12/Editor/ProjectGeneration/ProjectGeneration.cs:190 
+  at Microsoft.Unity.VisualStudio.Editor.VisualStudioEditor.SyncAll () [0x00005] in /Users/mbrown/Documents/GitHub/Zigzag-Game/Library/PackageCache/com.unity.ide.visualstudio@2.0.12/Editor/VisualStudioEditor.cs:177 
+  at UnityEditor.SyncVS.SyncSolution () [0x00007] in /Users/bokken/buildslave/unity/build/Editor/Mono/CodeEditor/SyncVS.cs:18 
+UnityEditor.Advertisements.AdvertisementSettings:set_enabled(Boolean)
+UnityEngine.Advertisements.Editor.AdsServiceEnabler:.ctor() (at Library/PackageCache/com.unity.ads@3.7.5/Editor/DevX/EditorGameServices/AdsServiceEnabler.cs:49)
+UnityEngine.Advertisements.Editor.AdsService:.ctor() (at Library/PackageCache/com.unity.ads@3.7.5/Editor/DevX/EditorGameServices/AdsService.cs:78)
+System.Reflection.MonoCMethod:InternalInvoke(Object, Object[], Exception&)
+System.Reflection.MonoCMethod:InternalInvoke(Object, Object[])
+System.RuntimeType:CreateInstanceMono(Boolean)
+System.RuntimeType:CreateInstanceSlow(Boolean, Boolean, Boolean, StackCrawlMark&)
+System.RuntimeType:CreateInstanceDefaultCtor(Boolean, Boolean, Boolean, StackCrawlMark&)
+System.Activator:CreateInstance(Type, Boolean)
+System.Activator:CreateInstance(Type)
+Unity.Services.Core.Editor.EditorGameServiceRegistry:TryGetServiceFromType(Type, IEditorGameService&) (at Library/PackageCache/com.unity.services.core@1.0.1/Editor/Core/EditorGameService/EditorGameServiceRegistry.cs:174)
+Unity.Services.Core.Editor.EditorGameServiceRegistry:RegisterAllServices() (at Library/PackageCache/com.unity.services.core@1.0.1/Editor/Core/EditorGameService/EditorGameServiceRegistry.cs:53)
+System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
+System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo)
+System.Reflection.MethodBase:Invoke(Object, Object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes() (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:154)
+
+(Filename: Library/PackageCache/com.unity.ide.visualstudio@2.0.12/Editor/VisualStudioEditor.cs Line: 81)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.197 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2198ms)
+		BeginReloadAssembly (194ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (35ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (66ms)
+		EndReloadAssembly (1913ms)
+			LoadAssemblies (161ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (354ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (1086ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (251ms)
+				ProcessInitializeOnLoadAttributes (702ms)
+				ProcessInitializeOnLoadMethodAttributes (116ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (31ms)
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.74 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2272 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 185.4 MB.
+System memory in use after: 185.6 MB.
+
+Unloading 54 unused Assets to reduce memory usage. Loaded Objects now: 2717.
+Total: 4.351833 ms (FindLiveObjects: 0.128792 ms CreateObjectMapping: 0.052375 ms MarkObjects: 4.142167 ms  DeleteObjects: 0.027583 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 4.39 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 51 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 141.5 MB.
+System memory in use after: 141.7 MB.
+
+Unloading 51 unused Assets to reduce memory usage. Loaded Objects now: 2717.
+Total: 4.564166 ms (FindLiveObjects: 0.093417 ms CreateObjectMapping: 0.043750 ms MarkObjects: 4.403208 ms  DeleteObjects: 0.023083 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005520 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2022-01-05 10:11:23.329 Unity[9664:304556] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600000f9d880 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+[ScriptCompilation] Recompiling all scripts because: Service ads setting changed
+NullReferenceException: Object reference not set to an instance of an object
+  at Microsoft.Unity.VisualStudio.Editor.VisualStudioEditor.TryGetVisualStudioInstallationForPath (System.String editorPath, System.Boolean searchInstallations, Microsoft.Unity.VisualStudio.Editor.IVisualStudioInstallation& installation) [0x00003] in /Users/mbrown/Documents/GitHub/Zigzag-Game/Library/PackageCache/com.unity.ide.visualstudio@2.0.12/Editor/VisualStudioEditor.cs:81 
+  at Microsoft.Unity.VisualStudio.Editor.ProjectGeneration.RefreshCurrentInstallation () [0x0000a] in /Users/mbrown/Documents/GitHub/Zigzag-Game/Library/PackageCache/com.unity.ide.visualstudio@2.0.12/Editor/ProjectGeneration/ProjectGeneration.cs:182 
+  at Microsoft.Unity.VisualStudio.Editor.ProjectGeneration.Sync () [0x00000] in /Users/mbrown/Documents/GitHub/Zigzag-Game/Library/PackageCache/com.unity.ide.visualstudio@2.0.12/Editor/ProjectGeneration/ProjectGeneration.cs:190 
+  at Microsoft.Unity.VisualStudio.Editor.VisualStudioEditor.SyncAll () [0x00005] in /Users/mbrown/Documents/GitHub/Zigzag-Game/Library/PackageCache/com.unity.ide.visualstudio@2.0.12/Editor/VisualStudioEditor.cs:177 
+  at UnityEditor.CodeEditorProjectSync.SyncEditorProject () [0x00001] in /Users/bokken/buildslave/unity/build/Editor/Mono/CodeEditor/CodeEditorProjectSync.cs:22 
+UnityEditor.Advertisements.AdvertisementSettings:set_enabled(Boolean)
+UnityEngine.Advertisements.Editor.AdsServiceEnabler:.ctor() (at Library/PackageCache/com.unity.ads@3.7.5/Editor/DevX/EditorGameServices/AdsServiceEnabler.cs:49)
+UnityEngine.Advertisements.Editor.AdsService:.ctor() (at Library/PackageCache/com.unity.ads@3.7.5/Editor/DevX/EditorGameServices/AdsService.cs:78)
+System.Reflection.MonoCMethod:InternalInvoke(Object, Object[], Exception&)
+System.Reflection.MonoCMethod:InternalInvoke(Object, Object[])
+System.RuntimeType:CreateInstanceMono(Boolean)
+System.RuntimeType:CreateInstanceSlow(Boolean, Boolean, Boolean, StackCrawlMark&)
+System.RuntimeType:CreateInstanceDefaultCtor(Boolean, Boolean, Boolean, StackCrawlMark&)
+System.Activator:CreateInstance(Type, Boolean)
+System.Activator:CreateInstance(Type)
+Unity.Services.Core.Editor.EditorGameServiceRegistry:TryGetServiceFromType(Type, IEditorGameService&) (at Library/PackageCache/com.unity.services.core@1.0.1/Editor/Core/EditorGameService/EditorGameServiceRegistry.cs:174)
+Unity.Services.Core.Editor.EditorGameServiceRegistry:RegisterAllServices() (at Library/PackageCache/com.unity.services.core@1.0.1/Editor/Core/EditorGameService/EditorGameServiceRegistry.cs:53)
+System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
+System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo)
+System.Reflection.MethodBase:Invoke(Object, Object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes() (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:154)
+
+(Filename: Library/PackageCache/com.unity.ide.visualstudio@2.0.12/Editor/VisualStudioEditor.cs Line: 81)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Microsoft.Unity.VisualStudio.Editor.VisualStudioEditor.TryGetVisualStudioInstallationForPath (System.String editorPath, System.Boolean searchInstallations, Microsoft.Unity.VisualStudio.Editor.IVisualStudioInstallation& installation) [0x00003] in /Users/mbrown/Documents/GitHub/Zigzag-Game/Library/PackageCache/com.unity.ide.visualstudio@2.0.12/Editor/VisualStudioEditor.cs:81 
+  at Microsoft.Unity.VisualStudio.Editor.ProjectGeneration.RefreshCurrentInstallation () [0x0000a] in /Users/mbrown/Documents/GitHub/Zigzag-Game/Library/PackageCache/com.unity.ide.visualstudio@2.0.12/Editor/ProjectGeneration/ProjectGeneration.cs:182 
+  at Microsoft.Unity.VisualStudio.Editor.ProjectGeneration.Sync () [0x00000] in /Users/mbrown/Documents/GitHub/Zigzag-Game/Library/PackageCache/com.unity.ide.visualstudio@2.0.12/Editor/ProjectGeneration/ProjectGeneration.cs:190 
+  at Microsoft.Unity.VisualStudio.Editor.VisualStudioEditor.SyncAll () [0x00005] in /Users/mbrown/Documents/GitHub/Zigzag-Game/Library/PackageCache/com.unity.ide.visualstudio@2.0.12/Editor/VisualStudioEditor.cs:177 
+  at UnityEditor.SyncVS.SyncSolution () [0x00007] in /Users/bokken/buildslave/unity/build/Editor/Mono/CodeEditor/SyncVS.cs:18 
+UnityEditor.Advertisements.AdvertisementSettings:set_enabled(Boolean)
+UnityEngine.Advertisements.Editor.AdsServiceEnabler:.ctor() (at Library/PackageCache/com.unity.ads@3.7.5/Editor/DevX/EditorGameServices/AdsServiceEnabler.cs:49)
+UnityEngine.Advertisements.Editor.AdsService:.ctor() (at Library/PackageCache/com.unity.ads@3.7.5/Editor/DevX/EditorGameServices/AdsService.cs:78)
+System.Reflection.MonoCMethod:InternalInvoke(Object, Object[], Exception&)
+System.Reflection.MonoCMethod:InternalInvoke(Object, Object[])
+System.RuntimeType:CreateInstanceMono(Boolean)
+System.RuntimeType:CreateInstanceSlow(Boolean, Boolean, Boolean, StackCrawlMark&)
+System.RuntimeType:CreateInstanceDefaultCtor(Boolean, Boolean, Boolean, StackCrawlMark&)
+System.Activator:CreateInstance(Type, Boolean)
+System.Activator:CreateInstance(Type)
+Unity.Services.Core.Editor.EditorGameServiceRegistry:TryGetServiceFromType(Type, IEditorGameService&) (at Library/PackageCache/com.unity.services.core@1.0.1/Editor/Core/EditorGameService/EditorGameServiceRegistry.cs:174)
+Unity.Services.Core.Editor.EditorGameServiceRegistry:RegisterAllServices() (at Library/PackageCache/com.unity.services.core@1.0.1/Editor/Core/EditorGameService/EditorGameServiceRegistry.cs:53)
+System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
+System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo)
+System.Reflection.MethodBase:Invoke(Object, Object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes() (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:154)
+
+(Filename: Library/PackageCache/com.unity.ide.visualstudio@2.0.12/Editor/VisualStudioEditor.cs Line: 81)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.112 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2113ms)
+		BeginReloadAssembly (179ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (31ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (63ms)
+		EndReloadAssembly (1845ms)
+			LoadAssemblies (163ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (329ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (1031ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (233ms)
+				ProcessInitializeOnLoadAttributes (678ms)
+				ProcessInitializeOnLoadMethodAttributes (104ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (31ms)
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2272 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 185.6 MB.
+System memory in use after: 185.9 MB.
+
+Unloading 53 unused Assets to reduce memory usage. Loaded Objects now: 2719.
+Total: 4.349167 ms (FindLiveObjects: 0.085334 ms CreateObjectMapping: 0.045791 ms MarkObjects: 4.194875 ms  DeleteObjects: 0.022167 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
